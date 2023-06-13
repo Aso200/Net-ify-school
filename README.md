@@ -1,1 +1,1 @@
-# Net-ify-school
+# Netlify-school
