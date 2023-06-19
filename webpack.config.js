@@ -5,5 +5,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'), // The output directory for bundled files
     filename: 'bundle.js' // The name of the output bundle file
-  }
+    
+  },
 }
