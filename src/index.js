@@ -1,6 +1,6 @@
-import calculateProduct from "@aso200/calculator-result";
+const calculateProduct = require("@aso200/calculator-result")
 
-window.calculateProduct = calculateProduct;
+
 const resultElement = document.getElementById("result");
 
 const result = calculateProduct(2, 3, 4);
