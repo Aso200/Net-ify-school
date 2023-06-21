@@ -7,4 +7,14 @@ module.exports = {
     filename: 'bundle.js' // The name of the output bundle file
     
   },
+  module: {
+    rules: [
+      {
+        test: /.js$/,
+        exclude: /node_modules/,
+        // ...other loader configuration...
+      },
+      // ...other rules...
+    ],
+  },
 }
